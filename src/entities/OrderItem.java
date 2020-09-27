@@ -42,7 +42,7 @@ public class OrderItem {
 	@Override
 	public String toString() {
 		return getProduct().getName()
-				+ ", $/n"
+				+ ", $"
 				+ String.format("%.2f", price)
 				+ ", Quantity: "
 				+ quantity
